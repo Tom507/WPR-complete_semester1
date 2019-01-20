@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title> this is a thing </title>
+    </head>
+    <body>
+        <!-- <div id="seite"> -->
+        
+            <header>Der Header</header>
+            <nav>Der Navigationsbereich
+				<ul>
+					<li>
+						<a href="G:\ECMA_Seite\blub.html" target="_blank">This is a thing </a>
+					</li>
+					<li>
+						<a href="#Zeichen">Zeichen </a>
+					</li>
+				</ul>
+			</nav>
+            
+            <section>Eine sektion </section>
+            <aside>Ein Nebenbereich </aside>
+            <footer>Der Fußbereich </footer>
+            
+            <article>Ein Article 
+				<h2>Die geschichte die sich nie ereignet hat</h2>
+				<p id="Absatz1">
+				Es begab sich zu einer <strong>zeit</strong> weit vor unserer, dass ein junger Brontosaurus ein paar Blätter von unserem Baum abbiss und sie dem Triceratops neben sich ins Gesicht spuckte.
+				"HEY" rief der Triceratops, "lass das", und gab dem Bronto einen Klapser mit den Schwanz.
+				Dann fingen die Beiden an sich zu raufen, und konnten nicht aufhören bis sie sich völlig erschöpft aber lächlnd gegenüber saßen. </p>
+			</article>
+            
+            <section name= "Zeichen" id="Zeichen">
+                <h2>Zeichen</h2>
+                ÄÖÜ = &ampAuml &ampOuml &ampUuml --> &Auml &Ouml &Uuml <br/>
+                & = &ampamp <br/>
+                &lt, &gt = &amplt, &ampgt <br/>
+                "&nbsp" = &ampnbsp <br/>
+                
+                <!-- Comment -->
+            </section>
+            
+            <section>
+                <h2>Formulare </h2>
+                
+                <form>
+                    <fieldset>
+                        <legend>Beschreibung</legend>
+                        <h2>Formulare<h2>
+                        <input name="a" type="text" placeholder="HI"><br/>
+                        <input name="b" type="password" value="password"><br/>
+                        <input name="c" type="email" value="email"><br/>
+                        <input name="d" type="checkbox" value="wird verschickt"> 1<br/>
+                        <input name="d" type="checkbox" value="wird verschickt"> 2<br/>
+                        <input name="d" type="checkbox" value="wird verschickt"> 3<br/>
+                        <input name="e" type="radio" value="wird verschickt"><br/>
+                        <input name="e" type="radio" value="wird verschickt"><br/>
+                        <input name="e" type="radio" value="wird verschickt"><br/>
+                        <input name="submit" type="submit" value="submit">
+                        <input name="reset" type="reset" value="reset">
+                        <button  name="nix" type="file" value="hatschi">blub </button>
+                    </fieldset>
+                </form>
+                
+                <textarea name="textfeld" rows="5" cols="20">
+                    Lorem ipsum dolor sit amet
+                </textarea>
+                
+                <select name="Auswahl" size="3" multiple="multiple">
+                  <option value="Wert1" selected="selected">1. Option</option>
+                  <option value="Wert2">2. Option</option>
+                  <option value="WertN">n. Option</option>
+                </select>
+            </section>
+            
+            <section style="border-width:5px;">
+                <h2> Bilder </h2>
+                
+                <figure class="bild">
+                    <img src="../bilder/Render04.png" alt="dies ist ein logo bloid" width="100"/>
+                    <figcaption><mark>bildunterschrift </mark></figcaption>
+                </figure>
+            </section>
+            
+            
+            <section>
+                <h2>Tabellen</h2>
+                
+                <table border=2px>
+                    <tr>
+                        <th>1</th>
+                        <th colspan=2>2</th>
+                        <th>3</th>
+                    </tr>
+                    <tr>
+                        <td rowspan=2>4</td>
+                        <td>5</td>
+                        <th>6</th>
+                        <th>7</th>
+                    </tr>
+                    <tr>
+                        <td colspan=2>8</td>
+                        <td><mark>9</mark></td>
+                    </tr>
+                </table>
+            </section>
+            
+            <section>
+                <h2>CSS SS </h2> #TODO
+                TODO
+            </section>
+            
+            <section>
+                <h2>ECMAscript </h2>
+                <script src="../script.js"></script>
+                
+                <div>
+                    <table id="nemo">  <!--hier ist der übeltäter -->
+                        <tr>
+                            <th>blub</th>
+                            <th>a</th>
+                        </tr> 
+                        <tr>
+                            <th>bla</th>
+                            <th>b</th>
+                        </tr>
+                        <tr>
+                            <th>blib</th>
+                            <th>c</th>
+                        </tr> 
+                    </table> 
+                </div>
+            </section>
+        <!--</div>-->
+    </body>
+</html>
